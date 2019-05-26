@@ -1,0 +1,27 @@
+O Comando SELECT tem PROJEÇÃO, SELEÇÃO E JUNÇÃO
+
+PROJEÇÃO - O que a consulta vai retornar
+
+SELEÇÃO - O filtro que fica dentro da condição where
+
+JUNÇÃO - Os inner join, left join etc.
+
+
+Performace na SELEÇÃO
+
+OR - Primeira o que tem maior registro 
+
+AND - Primeiro o que tem menor registro 
+
+exemplo de performace;
+100 Homens
+50 Mulheres
+30 Pessoas de olhos azuis
+
+Where Sexo = 'Homem' or Olho = 'Azul'
+Where Olho = 'Azul' and Sexo = 'Mulher'
+
+
+Em Relacionamento 1 x 1 a chave estrangeira fica na tabela mais fraca
+
+Em Relacionamento 1 x N a chave estrangeira fica na tabela N
